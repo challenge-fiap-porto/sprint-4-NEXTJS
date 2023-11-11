@@ -4,7 +4,7 @@ import "./duvidas.css";
 import "../../styles/geral.css";
 
 
-export default function duvidas() {
+export default function Duvidas() {
 
  
   const [open, setOpen] = useState(Array(4).fill(false));
