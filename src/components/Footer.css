@@ -3,7 +3,7 @@ footer {
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  height: 400px;
+  height: 260px;
   display: flex;
   align-items: center;
   background-color: #161819;
@@ -13,7 +13,6 @@ footer {
   color: #f0f8ff;
 
   & ul {
-    margin-left: 40%;
     margin-top: 2%;
   }
 
@@ -30,38 +29,50 @@ footer {
 
 .footer-adjustment {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 10%
 }
 
 .img-adjustment-footer {
   width: 160px;
   height: 40px;
-  
 }
 
-.div-adjustment {
-  margin-left: 20%;
+.div-adjustment { 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   margin-top: 2%;
 
   & h2 {
     margin-top: 7%;
-    width: 250%;
   }
 }
 
 .icon-footer {
-  margin-top: 5%;
-  margin-left: 6%;
-  width: 28px;
-  height: auto;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
+  object-fit: contain;
 }
 
 .espaço-icones {
-  width: 250%;
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  
+
+  & a {
+    vertical-align: middle;
+  }
 }
 
 .ajuste-espaços {
   width: 200px;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -93,4 +104,9 @@ footer {
       width: 100%;
     }
   }
+}
+
+.portinho2{
+  width: 350px;
+  height: auto;
 }
