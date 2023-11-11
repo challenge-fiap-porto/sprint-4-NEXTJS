@@ -1,0 +1,15 @@
+
+@media screen and (max-width: 1600px) {
+    body{
+        zoom: 80%;
+    }
+
+    .line{
+        display: none;
+    }
+}
+
+main{
+    min-height: 65vh;
+  }
+  

@@ -1,0 +1,66 @@
+.picture-container {
+  position: relative;
+}
+
+.picture-container .polaroid {
+  border: 1px solid darkgrey;
+  background-color: white;
+  padding: 15px 15px 60px 15px;
+  box-shadow: 5px 10px 10px darkgrey;
+}
+
+.picture-container .polaroid::after {
+  content: attr(polaroid-caption);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.background-rm {
+  background: -webkit-linear-gradient(0deg, #0046bf 0%, #b1e2fd 200%);
+  width: 199px;
+  height: 249px;
+}
+
+.background-rm1 {
+  background: -webkit-linear-gradient(0deg, #0046bf -100%, #b1e2fd 150%);
+  width: 199px;
+  height: 249px;
+}
+.background-rm2 {
+  background: -webkit-linear-gradient(0deg, #0046bf -150%, #b1e2fd 100%);
+  width: 199px;
+  height: 249px;
+}
+.background-rm3 {
+  background: -webkit-linear-gradient(0deg, #0046bf -200%, #b1e2fd 50%);
+  width: 199px;
+  height: 249px;
+}
+
+.adjustment-imgs-rm {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .adjustment-imgs-rm {
+    justify-content: space-between;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .adjustment-imgs-rm {
+    justify-content: space-between;
+    margin-right: 48%;
+  }
+}

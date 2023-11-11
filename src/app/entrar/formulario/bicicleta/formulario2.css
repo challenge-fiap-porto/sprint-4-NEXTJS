@@ -1,0 +1,27 @@
+
+.container-form2{
+    height: 540px;
+    width: 700px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 20px;
+    box-shadow: 6px 6px 12px #63636349;
+  
+    & h1 {
+      text-align: center;
+      padding-top: 10px;
+      margin-right: 20px;
+      color: #00a1fc;
+    }
+  
+    & h2 {
+      margin-top: 30px;
+    }
+  
+    & p {
+      font-size: 13px;
+    }
+  }
+  
