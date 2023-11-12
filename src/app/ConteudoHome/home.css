@@ -5,6 +5,10 @@
     line-height: 40px;
 }
 
+.teste{
+    display: none;
+}
+
 .color-text {
     color: #00a1fc;
 }
@@ -91,22 +95,42 @@
         display: none;
     }
 
+    .teste{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
     .title-1 {
-        margin-top: 5%;
+        margin-top: 10%;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 0;
+        font-weight: 600;
     }
 
     .title-2 {
-        margin-top: 3%;
+        margin-top: 7%;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 600;
+
     }
 
     .text-1 {
-        margin-right: 30%;
+        margin-top: 7px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        
     }
 
     .img-title2 {
         border-radius: 25px;
-        margin-top: 2%;
-        width: 350px;
+        margin-top: 3%;
+
     }
 
     .img-adjustment {
@@ -119,6 +143,15 @@
             flex-direction: column;
             align-items: center;
         }
+    }
+
+    .alinhamento-textos{
+        margin: auto;
+        width: 90vw;
+    }
+
+    .text-img {
+        font-size: 17px;
     }
 
 }

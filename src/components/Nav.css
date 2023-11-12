@@ -92,13 +92,13 @@ header {
   }
 
   .sign-in {
-    margin-left: 20%;
+    
+    margin-right: 40px;
     font-size: 18px;
   }
 
   header {
     height: 15vh;
-    width: 100vw;
   }
 
   .logo {
@@ -115,6 +115,13 @@ header {
     }
 
   }
+
+  /* .title-1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-top: 2%;
+} */
 }
 
 @media screen and (max-width:400px) {
