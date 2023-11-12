@@ -16,7 +16,7 @@ export default function Duvidas() {
   };
 
   return (
-    <div className="faq">
+    <main className="faq">
       <h1 className="title-faq">Tire suas dúvidas:</h1>
 
       <section className="faq-container">
@@ -39,7 +39,7 @@ export default function Duvidas() {
           </div>
         ))}
       </section>
-    </div>
+    </main>
   );
 }
 
