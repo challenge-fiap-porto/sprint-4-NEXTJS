@@ -69,3 +69,20 @@
 .body-postion-faq {
   margin-left: 3%;
 }
+
+@media screen and (max-width: 400px){
+
+  .title-faq {
+    font-size: 25px;
+  }
+
+  .faq-page{
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .faq-body{
+    width: 90%;
+    font-size: 15px;
+  }
+}

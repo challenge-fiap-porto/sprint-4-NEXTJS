@@ -48,7 +48,6 @@
   font-size: 19px;
   font-weight: 500;
   margin-top: 4%;
-
 }
 
 .adjustment-cards {
@@ -71,27 +70,37 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .search-help {
     width: 90%;
 
     &::placeholder {
-      font-size: 18px;
+      font-size: 15px;
     }
   }
 
   .help {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .cards p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
+  .title-help {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .cards{
+    margin: auto;
+    margin-bottom: 20px !important;
+  }
 }
 
-@media screen and (max-width:768px) {
- .adjustment-cards{
+@media screen and (max-width: 768px) {
+  .adjustment-cards {
     max-width: 80%;
- }
+  }
 }
