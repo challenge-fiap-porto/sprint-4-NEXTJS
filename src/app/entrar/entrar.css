@@ -85,7 +85,7 @@
     }
   }
 
-  .alinhamento-entrar{
+  .alinhamento-entrar {
     margin-top: 70px;
   }
 }
@@ -93,9 +93,6 @@
 @media screen and (max-width: 400px) {
   .position-img-entrar {
     display: none;
-  }
-  .edit-input-entrar-2 {
-    width: 80%;
   }
 
   .center-entrar {

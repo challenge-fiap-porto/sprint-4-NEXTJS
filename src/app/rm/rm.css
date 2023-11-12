@@ -61,10 +61,3 @@
 
   }
 }
-
-@media screen and (max-width: 400px) {
-  .adjustment-imgs-rm {
-    justify-content: space-between;
-    margin-right: 48%;
-  }
-}
