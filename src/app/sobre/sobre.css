@@ -43,16 +43,9 @@
   margin-right: 60px;
 }
 
-.line {
-  position: absolute;
-  border-left: 3px solid black;
-  height: 120vh;
-  left: 50%;
-  top: 0;
-  transform: rotate(25deg);
-  margin: 0;
-  padding: 0;
-}
+
+
+
 
 @media screen and (max-width:768px) {
 

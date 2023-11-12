@@ -1,15 +1,9 @@
-
 @media screen and (max-width: 1600px) {
-    body{
-        zoom: 80%;
-    }
-
-    .line{
-        display: none;
-    }
+  body {
+    zoom: 90%;
+  }
 }
 
-main{
-    min-height: 65vh;
-  }
-  
+main {
+  min-height: 65vh;
+}

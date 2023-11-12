@@ -31,16 +31,17 @@ export default function sobreNos() {
             alt="Gif de mulher pulando"
           />
         </div>
-        <div class="line"></div>
 
         <h1 className="title-about" id="title-about-position">
-            A companhia com você <br />
-            <span className="text-about-size">
-              em todos os momentos da vida
-            </span>
-          </h1>
+          A companhia com você <br />
+          <span className="text-about-size">em todos os momentos da vida</span>
+        </h1>
         <div className="aligning-photo-about">
-          <Image className="position-img-about-2" src={mulherNaRocha} alt="Mulher sentada em uma rocha" />
+          <Image
+            className="position-img-about-2"
+            src={mulherNaRocha}
+            alt="Mulher sentada em uma rocha"
+          />
 
           <p className="text-about" id="text-about-position">
             A Porto é mais do que uma seguradora: é um ecossistema com todas as
