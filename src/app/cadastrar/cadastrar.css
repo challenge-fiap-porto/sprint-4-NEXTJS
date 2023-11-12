@@ -12,12 +12,12 @@
 @media screen and (max-width:768px){
 
   .position-img-cadastrar{
-    position: absolute;
-    margin-top: 18%;
-    margin-left: -12%;
-    width: 600px;
+    display: none;
   }
 
+  .alinhamento-entrar{
+    margin-top: 70px;
+  }
 }
 
 @media screen and (max-width:400px) {

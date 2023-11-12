@@ -32,7 +32,7 @@
   background-color: #f0f8ff;
   font-family: "poppins", sans-serif;
   margin-left: 20%;
-  padding: 0px 4px 0px 16px
+  padding: 0px 4px 0px 16px;
 }
 
 textarea:focus,
@@ -78,11 +78,15 @@ header {
   border-radius: 0 40px 40px 0;
   height: 45px;
   width: 60px;
-  background: -webkit-linear-gradient(0deg, #f0f8ff 0%, #b1e2fd 30%, #007bff 100%);
+  background: -webkit-linear-gradient(
+    0deg,
+    #f0f8ff 0%,
+    #b1e2fd 30%,
+    #007bff 100%
+  );
 }
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
   .search {
     display: none;
   }
@@ -92,17 +96,12 @@ header {
   }
 
   .sign-in {
-    
     margin-right: 40px;
     font-size: 18px;
   }
 
   header {
     height: 15vh;
-  }
-
-  .logo {
-    margin-left: 3%;
   }
 
   .navbar {
@@ -113,7 +112,6 @@ header {
       color: #f0f8ff;
       font-size: 18px;
     }
-
   }
 
   /* .title-1 {
@@ -124,7 +122,7 @@ header {
 } */
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .navbar {
     width: 80%;
     display: flex;
@@ -134,7 +132,7 @@ header {
 
   header {
     height: 22vh;
-    width: 100vw;
+    width: 100%;
   }
 
   .logo {

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function cadastrar() {
   return (
-    <main>
+    <main className="alinhamento-entrar">
       <Image className="position-img-cadastrar" src={portinho} alt=" Boneco porto"  quality={100}/>
       <div className="center-entrar">
         <Image src={logo_porto} alt="Logo da porto" quality={100} />

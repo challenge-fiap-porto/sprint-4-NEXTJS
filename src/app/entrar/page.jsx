@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function entrar() {
   return (
-    <main >
+    <main className="alinhamento-entrar">
       <Image className="position-img-entrar" src={portinho} alt=" Boneco porto"  quality={100}/>
       <div className="center-entrar">
         <Image src={logo_porto} alt="Logo da porto" quality={100} />

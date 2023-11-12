@@ -27,7 +27,7 @@ export default function conteudoHome() {
           </div>
         </div>
       </div>
-        <Image className="teste" src={bike} />
+        <Image className="bike" src={bike} />
       <div className="alinhamento-textos">
         <h2 className="title-1" id="texto">
           Com o Seguro Bike da Porto Seguro, é pedalar e relaxar

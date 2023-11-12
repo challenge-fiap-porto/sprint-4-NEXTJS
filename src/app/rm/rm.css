@@ -53,8 +53,12 @@
 
 @media screen and (max-width: 768px) {
   .adjustment-imgs-rm {
-    justify-content: space-between;
+    
     margin-right: 25%;
+    margin-top: 40px !important;
+    margin: auto;
+    flex-wrap: wrap;
+
   }
 }
 

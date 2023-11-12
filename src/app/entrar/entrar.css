@@ -70,11 +70,7 @@
 
 @media screen and (max-width: 768px) {
   .position-img-entrar {
-    position: absolute;
-    margin-top: 18%;
-    margin-left: -12%;
-    width: 600px;
-    z-index: -1;
+    display: none;
   }
 
   .title-entrar {
@@ -84,17 +80,13 @@
   }
 
   .center-entrar {
-    & img {
-      width: 120px;
-    }
-
     & input {
       width: 40%;
     }
   }
 
-  .edit-input-entrar-2 {
-    width: 40%;
+  .alinhamento-entrar{
+    margin-top: 70px;
   }
 }
 
